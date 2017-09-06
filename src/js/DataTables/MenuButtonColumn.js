@@ -94,6 +94,10 @@ class MenuButtonColumn extends PureComponent {
     adjusted: PropTypes.bool,
   };
 
+  static defaultProps = {
+    simplifiedMenu: false,
+  };
+
   render() {
     const {
       style,

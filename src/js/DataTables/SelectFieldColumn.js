@@ -123,6 +123,7 @@ class SelectFieldColumn extends PureComponent {
     position: SelectFieldColumn.Positions.BELOW,
     fullWidth: true,
     repositionOnScroll: true,
+    simplifiedMenu: false,
   };
 
   render() {
